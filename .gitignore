@@ -1,5 +1,6 @@
 # symlink to hashcat
 hc
+eula.accepted
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
