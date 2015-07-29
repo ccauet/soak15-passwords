@@ -9,9 +9,14 @@ Searching for all words with 4 or less characters 'a', where 'a' can be either o
 ./hc -a3 --increment hashes.txt '?a?a?a?a'
 ```
 
-### Mask attack where hashes are given in hex (see above)
+### Mask attack (see above) where hashes are given in hex
 
 ```
 ./hc -a3 --hex-charset --increment hashes.txt '?a?a?a?a'
 ```
 
+### Mask attack (see above), recovered hashes are saved in file
+
+```
+./hc -a3 --hex-charset --increment --outfile=recovered_hashes.txt --outfile-format=1 hashes.txt '?a?a?a?a'
+```
