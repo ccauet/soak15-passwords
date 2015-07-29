@@ -1,6 +1,15 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
+"""Asks for passwords, creates md5 hashes, saves them to file 'hashes.txt'
+
+This script is intended to be used for educational purposes only!
+
+Author: Christophe Cauet
+Date:   2015-07-29
+Email:  contact@christophe.cauet.de
+"""
+
 import getpass
 import md5
 
