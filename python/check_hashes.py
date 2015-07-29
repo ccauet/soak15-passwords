@@ -17,7 +17,7 @@ hash_list = []
 check_passwords = True
 
 # read hashes from file
-with open('hashes.txt') as hash_file:
+with open('recovered_hashes.txt') as hash_file:
         for line in hash_file:
           hash_list.append(line.rstrip())
 
