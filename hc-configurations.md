@@ -8,3 +8,10 @@ Searching for all words with 4 or less characters 'a', where 'a' can be either o
 ```
 ./hc -a3 --increment hashes.txt '?a?a?a?a'
 ```
+
+### Mask attack where hashes are given in hex (see above)
+
+```
+./hc -a3 --hex-charset --increment hashes.txt '?a?a?a?a'
+```
+
