@@ -11,6 +11,12 @@ Searching for all words with 4 or less characters 'a', where 'a' can be either o
 ./hc -a3 --increment hashes.txt '?a?a?a?a'
 ```
 
+### remove recovered hashes from inputfile
+
+```
+./hc -a3 --remove hashes.txt '?a?a?a?a'
+```
+
 ### hashes are given in hex
 
 ```
