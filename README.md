@@ -1,6 +1,14 @@
 # SoAk15 talk about password security (and example scripts)
 
-## Crack user passwords
+## PDF slides
+
+The presentation slides can be found [here](/talk/passwords.pdf).
+
+## Examples
+
+More examples are listed in [hc-configurations.md](/hc-configurations.md)
+
+## How to proceed
 
 1. brute force attack with full charset, only words with < 6 characters
 
