@@ -1,5 +1,9 @@
 # SoAk15 talk about password security (and example scripts)
 
+Talk and resources about password security and common attack methods to guess password hashes. The talk was held at the [PeP et al. e.V.](http://pep-dortmund.org) Sommerakademie 2015 at Tschagguns, Austria.
+
+*Disclaimer*: Everything is intended to be used for educational purposes only! I am no password security expert!
+
 ## PDF slides
 
 The presentation slides can be found [here](/talk/passwords.pdf).
@@ -7,6 +11,10 @@ The presentation slides can be found [here](/talk/passwords.pdf).
 ## Examples
 
 More examples are listed in [hc-configurations.md](/hc-configurations.md)
+
+## Software
+
+To attack password hashes the [hashcat](https://hashcat.net/hashcat/) software was used. 
 
 ## How to proceed
 
